@@ -28,7 +28,7 @@ export default function Resume() {
         <h2 className="text-3xl font-bold text-center mb-6">Resume</h2>
         <div className="flex justify-center mb-6">
           <a
-            href="/resume.pdf"
+            href="/Arinze.pdf"
             download
             className="bg-blue-600 text-white px-6 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-blue-700"
           >

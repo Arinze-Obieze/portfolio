@@ -80,10 +80,10 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="text-lg font-medium text-gray-900">Email</h4>
-                <p className="mt-1 text-gray-600">arinze.obieze@example.com</p>
+                <p className="mt-1 text-gray-600">arinzeunleashed@gmail.com</p>
               </div>
               <div>
-                <h4 className="text-lg font-medium text-gray-900">Phone</h4>
+                <h4 className="text-lg font-medium text-gray-900">Phone / whatsapp</h4>
                 <p className="mt-1 text-gray-600">+234 916 159 7308</p>
               </div>
               <div>

@@ -28,7 +28,7 @@ export default function Home() {
     <div
       className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
     >
-      <Layout>
+      {/* <Layout> */}
         <Hero />
         <About />
         <StatsSection />
@@ -38,7 +38,7 @@ export default function Home() {
         <Testimonials />
         <Contact />
         <Footer />
-      </Layout>
+      {/* </Layout> */}
     </div>
   );
 }
