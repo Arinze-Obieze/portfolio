@@ -9,7 +9,7 @@ const ContactSection = () => {
             Get in Touch
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            I'd love to hear from you! Whether you have a project in mind or just want to say hi, feel free to reach out.
+            I'd love to hear from you! Whether you have a project in mind or just want to discuss an idea, feel free to reach out
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const ContactSection = () => {
                     type="text"
                     id="name"
                     name="name"
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm outline-none"
                     placeholder="Your Name"
                     required
                   />
@@ -39,7 +39,7 @@ const ContactSection = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm outline-none"
                     placeholder="your.email@example.com"
                     required
                   />
@@ -52,7 +52,7 @@ const ContactSection = () => {
                     id="message"
                     name="message"
                     rows="4"
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm outline-none"
                     placeholder="Your message..."
                     required
                   ></textarea>
@@ -60,7 +60,7 @@ const ContactSection = () => {
                 <div>
                   <button
                     type="submit"
-                    className="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="w-full px-4 py-2 text-sm font-medium text-white bg-teal-600 rounded-md hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
                   >
                     Send Message
                   </button>
@@ -75,7 +75,7 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Contact Details</h3>
                 <p className="mt-2 text-gray-600">
-                  Reach out to me via email, phone, or social media. I'll get back to you as soon as possible!
+                  Reach out to me via phone or whatsapp for faster response (less than 2min)
                 </p>
               </div>
               <div>
@@ -93,7 +93,7 @@ const ContactSection = () => {
                     href="https://linkedin.com/in/arinze-kingsley"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-indigo-600"
+                    className="text-gray-600 hover:text-teal-600"
                   >
                     <svg
                       className="w-6 h-6"
@@ -108,7 +108,7 @@ const ContactSection = () => {
                     href="https://github.com/arinze-obieze"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-indigo-600"
+                    className="text-gray-600 hover:text-teal-600"
                   >
                     <svg
                       className="w-6 h-6"

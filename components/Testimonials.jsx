@@ -4,24 +4,35 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'John Doe',
-      role: 'CEO, Everything Shelter',
-      text: 'Arinze is an exceptional developer. He delivered our website on time and exceeded our expectations. Highly recommended!',
-      image: '/images/john-doe.jpg', // Replace with actual image path
+      name: 'Ikenna Pascal',
+      role: 'Serial Entrepreneur & Senior Software Engineer',
+      text: `I’ve worked with Arinze on three different SaaS projects, from idea to launch, and 
+      he has consistently exceeded expectations. His technical expertise, attention to 
+      detail, and reliability make him an invaluable asset—one I always return to for 
+      top-notch results.`,
+      image: '/testimonials/iyke.jpeg', // Replace with actual image path
     },
     {
       id: 2,
-      name: 'Jane Smith',
-      role: 'Co-Founder, Xoal.io',
-      text: 'Working with Arinze was a pleasure. His attention to detail and problem-solving skills are top-notch.',
-      image: '/images/jane-smith.jpg', // Replace with actual image path
+      name: 'Pastor Jeremiah Nwabueze',
+      role: 'Lead Minister at Vrealm Ministry & Google Co-lead Anambra.',
+      text: `Arinze Kingsley Obieze built an exceptional, SEO-optimized 
+      website for our ministry, Vrealm.org.ng, significantly 
+      improving our online presence. His expertise, attention to 
+      detail, and dedication resulted in a visually appealing, 
+      user-friendly, and highly functional site that enhances our 
+      outreach. I highly recommend him to anyone in need of a 
+      skilled web developer.`,
+      image: '/testimonials/jeremaih.jpeg', // Replace with actual image path
     },
     {
       id: 3,
-      name: 'Pastor Jeremiah Nwabueze',
-      role: 'Anambra Google Developers Group Co-lead',
-      text: 'Arinze developed a fantastic website for our ministry. He is professional, reliable, and highly skilled.',
-      image: '/images/jeremiah.jpg', // Replace with actual image path
+      name: 'Favour Simeon',
+      role: 'Social Media Brand strategist & Marketer',
+      text: `Arinze built and optimized EverthingShelter.com.ng, 
+      enabling the marketing team to run a successful ad campaign 
+      that drove targeted traffic and engagement.`,
+      image: '/testimonials/favour.jpeg', // Replace with actual image path
     },
   ];
 
@@ -38,8 +49,8 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-16 ">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">
             Testimonials
@@ -117,7 +128,7 @@ const Testimonials = () => {
               key={index}
               onClick={() => setActiveIndex(index)}
               className={`w-3 h-3 rounded-full transition-colors duration-300 ${
-                activeIndex === index ? 'bg-indigo-600' : 'bg-gray-300'
+                activeIndex === index ? 'bg-teal-600' : 'bg-gray-300'
               }`}
             ></button>
           ))}

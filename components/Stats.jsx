@@ -20,7 +20,7 @@ const StatsSection = () => {
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <dt className="text-4xl font-extrabold text-indigo-600">{stat.value}</dt>
+                <dt className="text-4xl font-extrabold text-teal-600">{stat.value}</dt>
                 <dd className="mt-2 text-lg font-medium text-gray-900">{stat.label}</dd>
               </div>
             ))}
