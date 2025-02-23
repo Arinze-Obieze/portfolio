@@ -24,7 +24,7 @@ function Sidebar() {
           </div>
 
               {/* Social Media Links */}
-              <div className="mt-8 flex justify-center space-x-6 ">
+              <div className="mt-8 flex justify-center space-x-6 max-md:space-x-4 ">
               <a
                 href="https://github.com/arinze-obieze"
                 target="_blank"
