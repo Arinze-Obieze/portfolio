@@ -43,7 +43,7 @@ function Sidebar() {
                 <FaLinkedin className="w-4 h-4 " />
               </a>
               <a
-                href="https://twitter.com/arinze_obieze"
+                href="https://x.com/arinzeobieze"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-300 hover:text-teal-400 transition-colors duration-300 border-4 border-teal-400 rounded-full"
@@ -63,23 +63,23 @@ function Sidebar() {
       </nav>
       <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
       <BsFillPersonFill/>
-        <Link className='' href={'/'}>About</Link>
+        <Link className='' href={'/#about'}>About</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <PiReadCvLogoFill />
-        <Link className='' href={'/'}>Resume</Link>
+        <Link className='' href={'/#resume'}>Resume</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdOutlineWork />
-        <Link className='' href={'/'}>Projects</Link>
+        <Link className='' href={'/#projects'}>Projects</Link>
       </nav>
-       <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
+       {/* <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <RiReservedFill />
         <Link className='' href={'/'}>Services</Link>
-      </nav>
+      </nav> */}
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdSendToMobile />
-        <Link className='' href={'/'}>Contact</Link>
+        <Link className='' href={'/#contact'}>Contact</Link>
       </nav>
     </div>
     </div>

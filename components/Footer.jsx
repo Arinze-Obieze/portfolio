@@ -30,7 +30,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/arinze-obieze"
+              href="https://github.com/arinzeobieze"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-teal-500 transition-colors duration-300"
