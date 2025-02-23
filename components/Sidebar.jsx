@@ -9,7 +9,7 @@ import { MdOutlineWork } from "react-icons/md";
 
 function Sidebar() {
   return (
-    <div className='fixed'>
+    <div className='fixed bg-black'>
 
       <div>
       

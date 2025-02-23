@@ -18,7 +18,7 @@ const Footer = () => {
               href="https://linkedin.com/in/arinze-kingsley"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-indigo-500 transition-colors duration-300"
+              className="text-gray-400 hover:text-teal-500 transition-colors duration-300"
             >
               <svg
                 className="w-6 h-6"
@@ -33,7 +33,7 @@ const Footer = () => {
               href="https://github.com/arinze-obieze"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-indigo-500 transition-colors duration-300"
+              className="text-gray-400 hover:text-teal-500 transition-colors duration-300"
             >
               <svg
                 className="w-6 h-6"
@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Back to Top Button */}
           <button
             onClick={scrollToTop}
-            className="flex items-center text-gray-400 hover:text-indigo-500 transition-colors duration-300"
+            className="flex items-center text-gray-400 hover:text-teal-500 transition-colors duration-300"
           >
             <span className="mr-2">Back to Top</span>
             <svg
