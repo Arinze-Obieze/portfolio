@@ -37,7 +37,7 @@ export default function Resume() {
       Link: 'https://cowhouse.io/',
     },
     {
-      year: "June 2023 – 2023",
+      year: "June 2023 – August 2023",
       role: "Contract fullstack Developer",
       company: "Ditcal.com",
       location: "Remote",

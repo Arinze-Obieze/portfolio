@@ -9,11 +9,11 @@ import { MdOutlineWork } from "react-icons/md";
 
 function Sidebar() {
   return (
-    <div className='fixed bg-black'>
+    <div className='fixed'>
 
       <div>
       
-      <div className="flex w-64 justify-center pt-12 ">
+      <div className="flex w-64 max-sm:w-48  justify-center pt-12 ">
             <div className=" w-24 h-24 rounded-full overflow-hidden border-4 border-teal-400 transform hover:scale-105 transition-transform duration-300">
               <img
                 src="/arinzep.jpeg"
