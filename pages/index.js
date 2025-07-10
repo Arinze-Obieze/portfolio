@@ -28,15 +28,42 @@ export default function Home() {
       className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
     >
       <Head>
-        <title>Arinze Obieze - Full-Stack Developer</title>
+        <title>Arinze Obieze | Web Developer</title>
         <meta name="description" content="I am a full-stack developer specializing in Saas projects using Next.js and React. Explore my projects, testimonials, and contact me for collaborations." />
         <meta name="keywords" content="Next.js, React, Full-Stack Developer, JavaScript, Portfolio , Web Developer, Typescript ,Tech blog, Tailwind css" />
         <meta name="author" content="Arinze Obieze" />
         <meta property="og:title" content="Arinze Obieze - Full-Stack Web Developer" />
         <meta property="og:description" content="I build high-performance web applications using Next.js and React." />
-        <meta property="og:image" content="/arinzep.jpeg" />
+        <meta property="og:image" content="https://arinze.dev/arinzep.jpeg" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Arinze Obieze",
+      "url": "https://arinze.dev",
+      "image": "https://arinze.dev/arinzep.jpeg",
+      "sameAs": [
+        "https://github.com/arinze-obieze",
+        "https://www.linkedin.com/in/arinze-obieze",
+      ],
+      "jobTitle": "Full-Stack Web Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "knowsAbout": ["Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS"],
+      "description": "Full-stack developer specializing in SaaS projects using React and Next.js."
+    })
+  }}
+/>
+
+    
       </Head>
 
       <Layout>

@@ -1,9 +1,14 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { ReactTyped } from "react-typed";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-r from-gray-900 to-teal-900 text-white flex items-center">
+    <section 
+    className="min-h-screen bg-gradient-to-r from-gray-900 to-teal-900 text-white flex items-center"
+    aria-label="Hero section introducing Arinze Obieze, a full-stack web developer"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left Column: Text Content */}
@@ -17,8 +22,8 @@ const HeroSection = () => {
               <ReactTyped
                 strings={[
                   "A Full-Stack Web Developer.",
-                  "Exceptional and Relentless",
-                  "I make things happen..",
+                  "Exceptional at building SaaS websites.",
+                  "Focused on clean code and great UX.",
                 ]}
                 typeSpeed={50}
                 backSpeed={30}
@@ -27,12 +32,12 @@ const HeroSection = () => {
             </div>
 
             {/* Call-to-Action Button */}
-            <a
+            <Link
               href="#contact"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 transition-all duration-300"
             >
               Let's Work Together
-            </a>
+            </Link>
 
         
           </div>
@@ -40,10 +45,12 @@ const HeroSection = () => {
           {/* Right Column: Profile Image */}
           <div className="relative flex justify-center lg:justify-end">
             <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-teal-400 transform hover:scale-105 transition-transform duration-300">
-              <img
+              <Image
                 src="/arinzep.jpeg"
-                alt="Arinze Obieze"
-                className="w-full h-full object-cover"
+                 alt="Portrait of Arinze Obieze, Full-Stack Web Developer"
+                 width={320}
+                 height={320}
+                 className="w-full h-full object-cover"
               />
             </div>
           </div>

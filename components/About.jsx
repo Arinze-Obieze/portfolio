@@ -1,16 +1,20 @@
 import React from 'react';
-
+import Image from 'next/image'; 
 const AboutSection = () => {
   return (
-    <div className="bg-white py-16">
+    <section id='about' 
+    className="bg-white py-16"
+    aria-label="About Arinze Obieze">
       <div className=" overflow-hidden mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:space-x- lg:justify-between">
         
           {/* Left Column: Image */}
           <div className="lg:w-1/2">
-            <img
+            <Image
+              width={400}
               src="/arinze-obieze.jpg" 
-              alt="Arinze Obieze"
+              alt="Portrait of Arinze Obieze, Full-Stack Web Developer" 
+               height={500}
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
@@ -91,7 +95,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

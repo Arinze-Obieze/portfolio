@@ -90,7 +90,7 @@ const ContactSection = () => {
                 <h4 className="text-lg font-medium text-gray-900">Social Media</h4>
                 <div className="mt-2 flex space-x-4">
                   <a
-                    href="https://linkedin.com/in/arinze-kingsley"
+                    href="https://linkedin.com/in/arinze-obieze"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-teal-600"
