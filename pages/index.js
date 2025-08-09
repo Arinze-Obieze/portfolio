@@ -1,7 +1,5 @@
-// pages/index.js
 import Head from "next/head"; // Added for SEO
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import ProjectShowcase from "@/components/Project";
@@ -12,20 +10,20 @@ import Layout from "@/components/Layout";
 import StatsSection from "@/components/Stats";
 import Resume from "@/components/Experience";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export default function Home() {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
+      // className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
     >
       <Head>
         <title>Arinze Obieze | Web Developer</title>

@@ -22,8 +22,8 @@ const HeroSection = () => {
               <ReactTyped
                 strings={[
                   "A Full-Stack Web Developer.",
-                  "Exceptional at building SaaS websites.",
-                  "Focused on clean code and great UX.",
+                  "Specialized in modern SaaS solutions.",
+                  "Writing clean, scalable, and maintainable code.",
                 ]}
                 typeSpeed={50}
                 backSpeed={30}
