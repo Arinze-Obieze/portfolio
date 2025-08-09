@@ -18,7 +18,7 @@ const HeroSection = () => {
             </h1>
 
             {/* Typed Animation */}
-            <div className="text-2xl sm:text-3xl text-gray-300 mb-8">
+            <div className="text-lg sm:text-xl md:2xl text-gray-300 mb-8">
               <ReactTyped
                 strings={[
                   "A Full-Stack Web Developer.",

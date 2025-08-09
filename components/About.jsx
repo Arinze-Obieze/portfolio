@@ -33,19 +33,26 @@ const AboutSection = () => {
           {/* Right Column: Content */}
           <div className="mt-8 lg:mt-0 lg:w-1/2 lg:pl-24">
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">About Me</h2>
-            <p className="mt-4 md:text-lg text-gray-600">
-              I am a full-stack web developer with over 3 years of experience building web apps for 
+            <div className="mt-4 space-y-4 md:text-lg text-gray-600">
+            <p>
+            I am a full-stack web developer with over 3 years of experience building web apps for 
               SaaS start-ups and entrepreneurs. My strong work ethic, excellent 
               communication skills, and dedication to client satisfaction have earned me 
-              long-term relationships with clients. <br /><br />
+              long-term relationships with clients. 
+            </p>
+              <p>
               For example, I built Ditcal.com and have 
               worked on other projects such as Cowhouse.io and xoal.io for the same client. 
               Another client (everythingshelter.com.ng) kept returning for additional work, 
-              resulting in over 3 websites.<br /><br />
-              These experiences demonstrate not only my technical expertise but also my 
-              reliability, character, and commitment to delivering exceptional results, 
-              which keeps clients coming back.
-            </p>
+              resulting in over 3 websites.
+              </p>
+             <p>
+             For example, I built Ditcal.com and have 
+              worked on other projects such as Cowhouse.io and xoal.io for the same client. 
+              Another client (everythingshelter.com.ng) kept returning for additional work, 
+              resulting in over 3 websites.
+             </p>
+            </div>
 
             {/* Skills List */}
             <div className="mt-8">
