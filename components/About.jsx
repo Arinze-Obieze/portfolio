@@ -46,12 +46,7 @@ const AboutSection = () => {
               Another client (everythingshelter.com.ng) kept returning for additional work, 
               resulting in over 3 websites.
               </p>
-             <p>
-             For example, I built Ditcal.com and have 
-              worked on other projects such as Cowhouse.io and xoal.io for the same client. 
-              Another client (everythingshelter.com.ng) kept returning for additional work, 
-              resulting in over 3 websites.
-             </p>
+           
             </div>
 
             {/* Skills List */}
