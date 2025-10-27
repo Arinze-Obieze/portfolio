@@ -2,6 +2,11 @@ import { useState } from "react";
 
 const clientProjects = [
   {
+    title: "Waccps.org",
+    description: "An education management website for West African College of Clinical Physiology Sciences (WACCPS)",
+    link: "https://www.waccps.org/",
+  },
+  {
     title: "Xoal.io",
     description: "A SaaS no-code platform for personalized customer journey automation.",
     link: "https://xoal.io",

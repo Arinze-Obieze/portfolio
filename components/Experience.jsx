@@ -84,6 +84,22 @@ export default function Resume() {
       icon: "✍️",
       Link: 'https://everythingshelter.com.ng/',
     },
+    {
+      year: "March 2025 - August 2025",
+      role: "Contract Fullstack Developer",
+      company: "waccps.org",
+      location: "Remote",
+      description:
+        "Developed an education management website for West African College of Clinical Physiology Sciences (WACCPS)",
+      tasks: [
+        "Built a role-based school management system",
+        "Built an inhouse email campaign system for newsletters and announcements.",
+
+      ],
+
+      icon: "✍️",
+      Link: 'https://www.waccps.org/',
+    },
   ];
 
   return (

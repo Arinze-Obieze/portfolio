@@ -35,17 +35,16 @@ const AboutSection = () => {
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">About Me</h2>
             <div className="mt-4 space-y-4 md:text-lg text-gray-600">
             <p>
-            I am a full-stack web developer with over 3 years of experience building web apps for 
-              SaaS start-ups and entrepreneurs. My strong work ethic, excellent 
-              communication skills, and dedication to client satisfaction have earned me 
-              long-term relationships with clients. 
+            For 3+ years, I've partnered with startups and organizations to create digital solutions 
+            that solve real problems and drive growth. I bridge technical precision with business 
+            goals to build applications that users love and investors trust.
             </p>
-              <p>
-              For example, I built Ditcal.com and have 
-              worked on other projects such as Cowhouse.io and xoal.io for the same client. 
-              Another client (everythingshelter.com.ng) kept returning for additional work, 
-              resulting in over 3 websites.
-              </p>
+            <p>
+  I've built scalable, purpose-driven SaaS platforms including Ditcal.com, Cowhouse.io, and Xoal.io 
+  with development teams. I also spearheaded technical development for an educational management system 
+  for the West African College of Clinical Physiology Sciences. These projects collectively 
+  serve 50,000+ users and have secured significant funding.
+</p>
            
             </div>
 

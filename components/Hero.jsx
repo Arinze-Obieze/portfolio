@@ -21,9 +21,10 @@ const HeroSection = () => {
             <div className="text-lg sm:text-xl md:2xl text-gray-300 mb-8">
               <ReactTyped
                 strings={[
-                  "A Full-Stack Web Developer.",
-                  "Specialized in modern SaaS solutions.",
-                  "Writing clean, scalable, and maintainable code.",
+                  "Full-Stack Web Developer.",
+                  "50,000+ daily users rely on projects I've built.",
+                  "Lead development teams to deliver projects from idea to production.",
+                  "My projects have secured significant funding."
                 ]}
                 typeSpeed={50}
                 backSpeed={30}
