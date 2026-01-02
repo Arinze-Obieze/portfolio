@@ -35,7 +35,7 @@ const AboutSection = () => {
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">About Me</h2>
             <div className="mt-4 space-y-4 md:text-lg text-gray-600">
             <p>
-            For 3+ years, I've partnered with startups and organizations to create digital solutions 
+            For 4+ years, I've partnered with startups and organizations to create digital solutions 
             that solve real problems and drive growth. I bridge technical precision with business 
             goals to build applications that users love and investors trust.
             </p>

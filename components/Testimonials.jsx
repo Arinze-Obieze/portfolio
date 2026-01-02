@@ -10,7 +10,7 @@ const Testimonials = () => {
       he has consistently exceeded expectations. His technical expertise, attention to 
       detail, and reliability make him an invaluable asset—one I always return to for 
       top-notch results.`,
-      image: '/testimonials/iyke.jpeg', // Replace with actual image path
+      image: '/testimonials/iyke.jpeg', 
     },
     {
       id: 2,
@@ -23,16 +23,14 @@ const Testimonials = () => {
       user-friendly, and highly functional site that enhances our 
       outreach. I highly recommend him to anyone in need of a 
       skilled web developer.`,
-      image: '/testimonials/jeremaih.jpeg', // Replace with actual image path
+      image: '/testimonials/jeremaih.jpeg', 
     },
     {
       id: 3,
       name: 'Favour Simeon',
       role: 'Social Media Brand strategist & Marketer',
-      text: `Arinze built and optimized EverthingShelter.com.ng, 
-      enabling the marketing team to run a successful ad campaign 
-      that drove targeted traffic and engagement.`,
-      image: '/testimonials/favour.jpeg', // Replace with actual image path
+      text: `I’ve worked with Arinze across multiple projects where he consistently delivered with strong technical expertise and a highly structured approach. He takes full ownership of his work, thinks ahead, and executes with clarity and reliability. Working with him has always been seamless and results-driven`,
+      image: '/testimonials/favour.png', 
     },
   ];
 

@@ -1,8 +1,8 @@
 const StatsSection = () => {
     const stats = [
-      { value: "3+", label: "Years of Experience" },
+      { value: "4+", label: "Years of Experience" },
       { value: "10+", label: "Projects Completed" },
-      { value: "7+", label: "Happy Clients" },
+      { value: "10+", label: "Happy Clients" },
       { value: "100%", label: "Client Satisfaction" },
     ];
   
