@@ -36,6 +36,11 @@ const clientProjects = [
     description: "An extended e-shop for buying David's book",
     link: "https://www.tolulopeosokoya.com/djb/",
   },
+    {
+    title: "ishelter",
+    description: "A multi-role Construction management CRM",
+    link: "https://www.ishelter.everythingshelter.com.ng/",
+  },
 ];
 
 const funProjects = [

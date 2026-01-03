@@ -100,6 +100,22 @@ export default function Resume() {
       icon: "✍️",
       Link: 'https://www.waccps.org/',
     },
+     {
+      year: "September 2025 - December 2025",
+      role: "Contract Fullstack Developer",
+      company: "Ishelter",
+      location: "Remote",
+      description:
+        "Developed a full-stack CRM construction management project to streamline operations",
+      tasks: [
+        "Built a multi-role-based school management system",
+        "Intergreted google map api(map, satelite, streetview) to enable clients view the project location",
+
+      ],
+
+      icon: "✍️",
+      Link: 'https://www.ishelter.everythingshelter.com.ng',
+    },
   ];
 
   return (

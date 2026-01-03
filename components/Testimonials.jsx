@@ -29,7 +29,10 @@ const Testimonials = () => {
       id: 3,
       name: 'Favour Simeon',
       role: 'Social Media Brand strategist & Marketer',
-      text: `I’ve worked with Arinze across multiple projects where he consistently delivered with strong technical expertise and a highly structured approach. He takes full ownership of his work, thinks ahead, and executes with clarity and reliability. Working with him has always been seamless and results-driven`,
+      text: `I’ve worked with Arinze across multiple projects where he consistently 
+      delivered with strong technical expertise and a highly structured approach. 
+      He takes full ownership of his work, thinks ahead, and executes with clarity 
+      and reliability. Working with him has always been seamless and results-driven`,
       image: '/testimonials/favour.png', 
     },
   ];

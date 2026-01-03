@@ -20,14 +20,16 @@ const AboutSection = () => {
         <div className="lg:flex lg:items-center lg:justify-between">
           
           {/* Left Column: Image */}
-          <div className="lg:w-1/2">
-            <Image
-              width={400}
-              height={500}
-              src="/arinze-obieze.jpg"
-              alt="Portrait of Arinze Obieze, Full-Stack Web Developer"
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+       <div className="lg:w-1/2">
+            <div className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[550px] w-full">
+              <Image
+                src="/arinze.jpg"
+                alt="Portrait of Arinze Obieze, Full-Stack Web Developer"
+                fill
+                className="rounded-lg shadow-lg object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </div>
 
           {/* Right Column: Content */}
