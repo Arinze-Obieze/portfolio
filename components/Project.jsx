@@ -88,10 +88,8 @@ export default function ProjectShowcase() {
               <h3 className="text-xl  font-semibold break-words">{project.title}</h3>
               <p className="text-gray-600 mt-2">{project.description}</p>
               <a
-                href={project.link}
+                href={project.link} target="_blank" rel="noopener noreferrer"
                 className="text-teal-500 font-medium mt-3 inline-block"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 View Project →
               </a>

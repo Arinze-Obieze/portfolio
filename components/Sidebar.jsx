@@ -26,26 +26,23 @@ function Sidebar() {
               {/* Social Media Links */}
               <div className="mt-8 flex justify-center space-x-6 max-md:space-x-4 ">
               <a
-                href="https://github.com/arinze-obieze"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://github.com/arinze-obieze" target="_blank" rel="noopener noreferrer"
+               
                 className="p-2 text-gray-300 hover:text-teal-400 transition-colors duration-300 border-4 border-teal-400 rounded-full"
               >
                 <FaGithub className="w-4 h-4 " />
               </a>
               <a
-                href="https://linkedin.com/in/arinze-kingsley"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://linkedin.com/in/arinze-obieze" target="_blank" rel="noopener noreferrer"
+             
                 className="p-2 text-gray-300 hover:text-teal-400 transition-colors duration-300 border-4 border-teal-400 rounded-full"
 
               >
                 <FaLinkedin className="w-4 h-4 " />
               </a>
               <a
-                href="https://x.com/arinzeobieze"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://x.com/arinzeobieze" target="_blank" rel="noopener noreferrer"
+           
                 className="p-2 text-gray-300 hover:text-teal-400 transition-colors duration-300 border-4 border-teal-400 rounded-full"
 
               >
@@ -59,27 +56,27 @@ function Sidebar() {
     <div className='mt-12 space-y-6 text-left pl-8'>
     <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
       <FaHome/>
-        <Link className='' href={'/'}>Home</Link>
+        <Link className='' href={'/'} target="_blank" rel="noopener noreferrer">Home</Link>
       </nav>
       <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
       <BsFillPersonFill/>
-        <Link className='' href={'/#about'}>About</Link>
+        <Link className='' href={'/#about'} target="_blank" rel="noopener noreferrer">About</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <PiReadCvLogoFill />
-        <Link className='' href={'/#resume'}>Resume</Link>
+        <Link className='' href={'/#resume'} target="_blank" rel="noopener noreferrer">Resume</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdOutlineWork />
-        <Link className='' href={'/#projects'}>Projects</Link>
+        <Link className='' href={'/#projects'} target="_blank" rel="noopener noreferrer">Projects</Link>
       </nav>
        {/* <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <RiReservedFill />
-        <Link className='' href={'/'}>Services</Link>
+        <Link className='' href={'/'} target="_blank" rel="noopener noreferrer">Services</Link>
       </nav> */}
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdSendToMobile />
-        <Link className='' href={'/#contact'}>Contact</Link>
+        <Link className='' href={'/#contact'} target="_blank" rel="noopener noreferrer">Contact</Link>
       </nav>
     </div>
     </div>

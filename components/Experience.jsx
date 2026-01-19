@@ -124,7 +124,7 @@ export default function Resume() {
         <h2 className="text-3xl font-bold text-center mb-6">Resume</h2>
         <div className="flex justify-center mb-6">
           <a
-            href="/Arinze.pdf"
+            href="/Arinze.pdf" target="_blank" rel="noopener noreferrer"
             download
             className="bg-teal-600 text-white px-6 py-2 flex items-center gap-2 rounded-md shadow-md hover:bg-teal-700"
           >
@@ -161,7 +161,7 @@ export default function Resume() {
                     {item.role}
                   </h2>
                   <h3 className="text-lg font-semibold">
-                    <Link href={item.Link} className="underline underline-offset-4 text-teal-600">{item.company} </Link> | {item.year}
+                    <Link href={item.Link} className="underline underline-offset-4 text-teal-600" target="_blank" rel="noopener noreferrer">{item.company} </Link> | {item.year}
                   </h3>
                   <p className="mt-2 text-sm">{item.description}</p>
 

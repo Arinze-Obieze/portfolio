@@ -15,9 +15,7 @@ const Footer = () => {
           {/* Social Media Links */}
           <div className="flex space-x-6">
             <a
-              href="https://linkedin.com/in/arinze-kingsley"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://linkedin.com/in/arinze-obieze" target="_blank" rel="noopener noreferrer"
               className="text-gray-400 hover:text-teal-500 transition-colors duration-300"
             >
               <svg
@@ -30,9 +28,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/arinzeobieze"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://github.com/arinze-obieze" target="_blank" rel="noopener noreferrer"
               className="text-gray-400 hover:text-teal-500 transition-colors duration-300"
             >
               <svg

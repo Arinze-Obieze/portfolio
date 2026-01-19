@@ -66,7 +66,7 @@ const AboutSection = () => {
             {/* Call-to-Action Button */}
             <div className="mt-8">
               <a
-                href="#contact"
+                href="#contact" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
               >
                 Let's Work Together
