@@ -18,7 +18,7 @@ const HeroSection = () => {
             </h1>
 
             {/* Typed Animation */}
-            <div className="text-lg sm:text-xl md:2xl text-gray-300 mb-8">
+            <div className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 min-h-[6rem]">
               <ReactTyped
                 strings={[
                   "Full-Stack Web Developer.",
@@ -34,7 +34,7 @@ const HeroSection = () => {
 
             {/* Call-to-Action Button */}
             <Link
-              href="#contact" target="_blank" rel="noopener noreferrer"
+              href="#contact"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 transition-all duration-300"
             >
               Let's Work Together

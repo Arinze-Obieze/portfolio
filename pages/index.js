@@ -10,6 +10,12 @@ import Layout from "@/components/Layout";
 import StatsSection from "@/components/Stats";
 import Resume from "@/components/Experience";
 
+import { client } from "@/lib/sanity.client";
+import { featuredPostsQuery } from "@/lib/sanity.queries";
+import RecentPosts from "@/components/RecentPosts";
+
+
+
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -20,7 +26,7 @@ import Resume from "@/components/Experience";
 //   subsets: ["latin"],
 // });
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div
       // className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
@@ -86,6 +92,11 @@ export default function Home() {
             <ProjectShowcase />
           </section>
 
+          {/* Recent Blog Posts CTA */}
+          <section id="blog-cta">
+            <RecentPosts posts={posts} />
+          </section>
+
           <section id="testimonials">
             <Testimonials />
           </section>
@@ -101,4 +112,16 @@ export default function Home() {
       </Layout>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  // Fetch top 3 featured (or latest) posts
+  const recentPosts = await client.fetch(featuredPostsQuery);
+
+  return {
+    props: {
+      posts: recentPosts,
+    },
+    revalidate: 60,
+  };
 }

@@ -6,6 +6,7 @@ import { PiReadCvLogoFill } from "react-icons/pi";
 import { RiReservedFill } from "react-icons/ri";
 import { MdSendToMobile } from "react-icons/md";
 import { MdOutlineWork } from "react-icons/md";
+import { ImBooks } from "react-icons/im";
 
 function Sidebar() {
   return (
@@ -69,6 +70,10 @@ function Sidebar() {
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdOutlineWork />
         <Link className='' href={'/#projects'} target="_blank" rel="noopener noreferrer">Projects</Link>
+      </nav>
+       <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
+       <ImBooks />
+        <Link className='' href={'/blog'}>Blog</Link>
       </nav>
        {/* <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <RiReservedFill />
