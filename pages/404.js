@@ -10,7 +10,7 @@ export default function NotFound() {
         Oops! The page you are looking for might have been removed or is temporarily unavailable.
       </p>
       <Link
-        href="/" target="_blank" rel="noopener noreferrer"
+        href="/"
         className="bg-teal-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-teal-700 transition"
       >
         Go Home
