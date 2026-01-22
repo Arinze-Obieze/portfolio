@@ -57,19 +57,19 @@ function Sidebar() {
     <div className='mt-12 space-y-6 text-left pl-8'>
     <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
       <FaHome/>
-        <Link className='' href={'/'} target="_blank" rel="noopener noreferrer">Home</Link>
+        <Link className='' href={'/'} >Home</Link>
       </nav>
       <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
       <BsFillPersonFill/>
-        <Link className='' href={'/#about'} target="_blank" rel="noopener noreferrer">About</Link>
+        <Link className='' href={'/#about'} >About</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <PiReadCvLogoFill />
-        <Link className='' href={'/#resume'} target="_blank" rel="noopener noreferrer">Resume</Link>
+        <Link className='' href={'/#resume'} >Resume</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdOutlineWork />
-        <Link className='' href={'/#projects'} target="_blank" rel="noopener noreferrer">Projects</Link>
+        <Link className='' href={'/#projects'} >Projects</Link>
       </nav>
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <ImBooks />
@@ -77,11 +77,11 @@ function Sidebar() {
       </nav>
        {/* <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <RiReservedFill />
-        <Link className='' href={'/'} target="_blank" rel="noopener noreferrer">Services</Link>
+        <Link className='' href={'/'} >Services</Link>
       </nav> */}
        <nav className='text-gray-300 hover:text-white flex space-x-4 place-items-center'>
        <MdSendToMobile />
-        <Link className='' href={'/#contact'} target="_blank" rel="noopener noreferrer">Contact</Link>
+        <Link className='' href={'/#contact'} >Contact</Link>
       </nav>
     </div>
     </div>
